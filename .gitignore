@@ -1,0 +1,14 @@
+# Secrets / clés
+benchmark-bq-key.json
+*.json
+.env
+
+# Exports / données
+*.xlsx
+~$*.xlsx
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
