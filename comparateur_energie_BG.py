@@ -260,7 +260,7 @@ CONFIGS = [
     },
         {
         "profil_id": "NIORT_GAZ_5000",
-        "ville": "NIORT",
+        "ville": "NIORT (hors centre ville)",
         "code_postal": "79000",
         "type_energie": "Gaz",
         "conso_kwh": "5000",
@@ -268,20 +268,20 @@ CONFIGS = [
     {
         "profil_id": "NIORT_GAZ_10000",
         "ville": "NIORT",
-        "code_postal": "79000",
+        "code_postal": "79000 (hors centre ville)",
         "type_energie": "Gaz",
         "conso_kwh": "10000",
     },
     {
         "profil_id": "NIORT_GAZ_14000",
         "ville": "NIORT",
-        "code_postal": "79000",
+        "code_postal": "79000 (hors centre ville)",
         "type_energie": "Gaz",
         "conso_kwh": "14000",
     },
     {
         "profil_id": "NIORT_Base_6kVA",
-        "ville": "NIORT",
+        "ville": "NIORT (hors centre ville)",
         "code_postal": "79000",
         "type_energie": "Électricité",
         "profil": "Base",
@@ -290,7 +290,7 @@ CONFIGS = [
     },
     {
         "profil_id": "NIORT_HPHC_9kVA",
-        "ville": "NIORT",
+        "ville": "NIORT (hors centre ville)",
         "code_postal": "79000",
         "type_energie": "Électricité",
         "profil": "HPHC",
@@ -321,7 +321,6 @@ CONFIGS = [
         "conso_kwh": "14000",
     },
     {
-
         "profil_id": "COLMAR_Base_6kVA",
         "ville": "COLMAR",
         "code_postal": "68000",
@@ -329,10 +328,8 @@ CONFIGS = [
         "profil": "Base",
         "puissance": "6",
         "conso_kwh": "2163",
-
     },
     {
-
         "profil_id": "COLMAR_HPHC_9kVA",
         "ville": "COLMAR",
         "code_postal": "68000",
@@ -341,10 +338,8 @@ CONFIGS = [
         "puissance": "9",
         "conso_kwh": "5126",
         "ratio_hp": "57",
-
     },
     {
-
         "profil_id": "CHAUNAY_Base_6kVA",
         "ville": "CHAUNAY",
         "code_postal": "86510",
@@ -352,10 +347,8 @@ CONFIGS = [
         "profil": "Base",
         "puissance": "6",
         "conso_kwh": "2163",
-
     },
     {
-
         "profil_id": "CHAUNAY_HPHC_9kVA",
         "ville": "CHAUNAY",
         "code_postal": "86510",
@@ -364,7 +357,6 @@ CONFIGS = [
         "puissance": "9",
         "conso_kwh": "5126",
         "ratio_hp": "57",
-
     },
 ]
 
