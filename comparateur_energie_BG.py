@@ -189,7 +189,7 @@ CONFIGS = [
         "type_energie": "Électricité",
         "profil": "Base",
         "puissance": "6",
-        "conso_kwh": "2158",
+        "conso_kwh": "2163",
     },
     {
         "profil_id": "MONTPELLIER_HPHC_9kVA",
@@ -198,7 +198,8 @@ CONFIGS = [
         "type_energie": "Électricité",
         "profil": "HPHC",
         "puissance": "9",
-        "conso_kwh": "5242",
+        "conso_kwh": "5126",
+        "ratio_hp": "57",
     },
     {
         "profil_id": "PARIS15_Base_6kVA",
@@ -207,7 +208,7 @@ CONFIGS = [
         "type_energie": "Électricité",
         "profil": "Base",
         "puissance": "6",
-        "conso_kwh": "2158",
+        "conso_kwh": "2163",
     },
     {
         "profil_id": "PARIS15_HPHC_9kVA",
@@ -216,7 +217,8 @@ CONFIGS = [
         "type_energie": "Électricité",
         "profil": "HPHC",
         "puissance": "9",
-        "conso_kwh": "5242",
+        "conso_kwh": "5126",
+        "ratio_hp": "57",
     },
     {
         "profil_id": "STRASBOURG_Base_6kVA",
@@ -225,7 +227,7 @@ CONFIGS = [
         "type_energie": "Électricité",
         "profil": "Base",
         "puissance": "6",
-        "conso_kwh": "2158",
+        "conso_kwh": "2163",
     },
     {
         "profil_id": "STRASBOURG_HPHC_9kVA",
@@ -234,7 +236,8 @@ CONFIGS = [
         "type_energie": "Électricité",
         "profil": "HPHC",
         "puissance": "9",
-        "conso_kwh": "5242",
+        "conso_kwh": "5126",
+        "ratio_hp": "57",
     },
     {
         "profil_id": "METZ_Base_6kVA",
@@ -243,7 +246,7 @@ CONFIGS = [
         "type_energie": "Électricité",
         "profil": "Base",
         "puissance": "6",
-        "conso_kwh": "2158",
+        "conso_kwh": "2163",
     },
     {
         "profil_id": "METZ_HPHC_9kVA",
@@ -252,7 +255,116 @@ CONFIGS = [
         "type_energie": "Électricité",
         "profil": "HPHC",
         "puissance": "9",
-        "conso_kwh": "5242",
+        "conso_kwh": "5126",
+        "ratio_hp": "57",
+    },
+        {
+        "profil_id": "NIORT_GAZ_5000",
+        "ville": "NIORT",
+        "code_postal": "79000",
+        "type_energie": "Gaz",
+        "conso_kwh": "5000",
+    },
+    {
+        "profil_id": "NIORT_GAZ_10000",
+        "ville": "NIORT",
+        "code_postal": "79000",
+        "type_energie": "Gaz",
+        "conso_kwh": "10000",
+    },
+    {
+        "profil_id": "NIORT_GAZ_14000",
+        "ville": "NIORT",
+        "code_postal": "79000",
+        "type_energie": "Gaz",
+        "conso_kwh": "14000",
+    },
+    {
+        "profil_id": "NIORT_Base_6kVA",
+        "ville": "NIORT",
+        "code_postal": "79000",
+        "type_energie": "Électricité",
+        "profil": "Base",
+        "puissance": "6",
+        "conso_kwh": "2163",
+    },
+    {
+        "profil_id": "NIORT_HPHC_9kVA",
+        "ville": "NIORT",
+        "code_postal": "79000",
+        "type_energie": "Électricité",
+        "profil": "HPHC",
+        "puissance": "9",
+        "conso_kwh": "5126",
+        "ratio_hp": "57",
+
+    },
+    {
+        "profil_id": "COLMAR_GAZ_5000",
+        "ville": "COLMAR",
+        "code_postal": "68000",
+        "type_energie": "Gaz",
+        "conso_kwh": "5000",
+    },
+    {
+        "profil_id": "COLMAR_GAZ_10000",
+        "ville": "COLMAR",
+        "code_postal": "68000",
+        "type_energie": "Gaz",
+        "conso_kwh": "10000",
+    },
+    {
+        "profil_id": "COLMAR_GAZ_14000",
+        "ville": "COLMAR",
+        "code_postal": "68000",
+        "type_energie": "Gaz",
+        "conso_kwh": "14000",
+    },
+    {
+
+        "profil_id": "COLMAR_Base_6kVA",
+        "ville": "COLMAR",
+        "code_postal": "68000",
+        "type_energie": "Électricité",
+        "profil": "Base",
+        "puissance": "6",
+        "conso_kwh": "2163",
+
+    },
+    {
+
+        "profil_id": "COLMAR_HPHC_9kVA",
+        "ville": "COLMAR",
+        "code_postal": "68000",
+        "type_energie": "Électricité",
+        "profil": "HPHC",
+        "puissance": "9",
+        "conso_kwh": "5126",
+        "ratio_hp": "57",
+
+    },
+    {
+
+        "profil_id": "CHAUNAY_Base_6kVA",
+        "ville": "CHAUNAY",
+        "code_postal": "86510",
+        "type_energie": "Électricité",
+        "profil": "Base",
+        "puissance": "6",
+        "conso_kwh": "2163",
+
+    },
+    {
+
+        "profil_id": "CHAUNAY_HPHC_9kVA",
+        "ville": "CHAUNAY",
+        "code_postal": "86510",
+        "type_energie": "Électricité",
+        "profil": "HPHC",
+        "puissance": "9",
+        "conso_kwh": "5126",
+        "ratio_hp": "57",
+
     },
 ]
 
@@ -415,7 +527,7 @@ def extraire_offres(cfg):
                 time.sleep(1.5)
 
                 # ✅ Sélection du ratio HP/HC configurable
-                ratio_hp = int(cfg.get("ratio_hp", 60))  # fallback à 60%
+                ratio_hp = int(cfg.get("ratio_hp", 57))  # fallback à 60%
                 print(f"🔁 Ratio HP souhaité : {ratio_hp}%")
                 try:
                     page.select_option("#elec_consumption_hpRatio", value=str(ratio_hp))
